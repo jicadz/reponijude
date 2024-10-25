@@ -4,7 +4,7 @@ import twitter from '../assets/Twitter.svg'
 
 const Contact = () => {
     return(
-        <section className="bg-[#A020F0] text-center pt-[2rem]">
+        <section className="bg-[#A020F0] text-center pt-[2rem]" id='contact'>
         <h2 className="connect text-[#fff] font-oswald text-[2rem]">CONNECT WITH ME</h2>
        <p className="social font-medium"> ON MY SOCIAL NETWORKS OR EMAIL </p>
        <ul className="social-icons flex flex-col items-center justify-center gap-[3rem] mt-[2rem] sm:flex-row"> 
