@@ -8,9 +8,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.home {
+  background: linear-gradient(to bottom, #A020F0, #7918b5);
+}
+
+.imageMob {
+  border-radius: 30%;
+  overflow: hidden;
+}
+
 .imageMob img {
   width: 300px;
   height: 350px;
+  object-fit: cover;
 }
 
 .imageDesk img {
